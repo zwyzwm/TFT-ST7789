@@ -1,5 +1,13 @@
 # TFT-ST7789
 
+## 硬件连线
+```
+GND —— GND VCC —— VCC(3.3V)
+SCL —— PIN23 SDA —— PIN19
+RES —— PIN50 DC —— PIN48
+CS —— PIN46 BLK —— PIN44
+```
+
 ## 构建运行环境
 
 参考:https://github.com/milkv-duo/duo-examples
