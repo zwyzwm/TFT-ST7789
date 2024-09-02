@@ -1,6 +1,6 @@
 # TFT-ST7789
 
-English | [简体中文]()
+English | [简体中文](https://github.com/zwyzwm/TFT-ST7789/blob/main/README.ZH.md)
 
 ## Build the operating environment
 
@@ -17,7 +17,7 @@ After generating st7789, run the command `scp st7789 root@192.168.42.1:/root/` t
 Run the program on the board terminal.
 
 ## Display
--> Display color
+- > Display color
 
 ```
 TFT_full(RED);
@@ -28,7 +28,7 @@ TFT_full(BLUE);
 delay_ms(5000);
 
 ```
--> Display picture
+- > Display picture
 
 ```
 Picture_display(point);
