@@ -2,6 +2,13 @@
 
 English | [简体中文](https://github.com/zwyzwm/TFT-ST7789/blob/main/README.ZH.md)
 
+## Hardware Connection
+```
+GND —— GND VCC —— VCC(3.3V)
+SCL —— PIN23 SDA —— PIN19
+RES —— PIN50 DC —— PIN48
+CS —— PIN46 BLK —— PIN44
+```
 ## Build the operating environment
 
 Reference: https://github.com/milkv-duo/duo-examples
